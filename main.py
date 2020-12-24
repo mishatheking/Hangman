@@ -155,4 +155,4 @@ while True:
     main()
 pygame.quit()
 
-# as hint show few from the unchosen letters
+# reminder -> add hint ie. show few from the unchosen letters
