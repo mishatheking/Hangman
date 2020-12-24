@@ -48,7 +48,7 @@ def main():
 
         # game variables
     hangman_status = 0
-    word = ["DEVELOPER","ENGINEER","GOOGLE","KAGGLE", "DATA SCIENCE"]
+    word = random.choice(words).upper()
     guessed = []
 
     def draw():
